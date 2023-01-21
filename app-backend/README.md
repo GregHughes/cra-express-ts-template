@@ -4,7 +4,8 @@ After install, create an empty directory inside of /app-backend such as "/app-ba
 
 Then start the mongod daemon with "--dbpath" set to your new directory.
 
-- Type 'mongod --dbpath ./{directory name}/' in the terminal while inside of the /app-backend directory
+- Navigate to the /app-backend directory inside your terminal
+- Type 'mongod --dbpath ./{directory name}/'
 
 Use the mongo shell (installed as a dependency) to create a database.
 
